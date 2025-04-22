@@ -1,1 +1,12 @@
-# Klasifikasi-Gambar
+# Klasifikasi Gambar Kendaraan 
+- Proyek ini merupakan proyek klasifikasi gambar kendaraan yang terdiri dari 5590 baris dan 7 kelas yaitu Auto Rickshaws, Bikes, Cars, Motorcycles, Planes, Ships, dan Trains
+- Klasifikasi gambar menggunakan algoritma deep learning yaitu CNN
+- Tahapan dalam proses klasifikasi gambar yaitu:
+  - Mencari dataset
+  - load dataset ke notebook.ipynb
+  - melakukan preprocessing data yaitu data augmentasi
+  - pembangunan model CNN (Sequential, Conv2D, Pooling Layer)
+  - proses training dengan 100 epoch yang mendapatkan akurasi pada data validasi sebesar 88 persen
+  - melakukan inferensi pada data testing dengan hasil akurasi sebesar 90 persen.
+  - menyimpan dan melakukan konversi model menjadi tfjs lite, tfjs, dan saved_model
+  - 
